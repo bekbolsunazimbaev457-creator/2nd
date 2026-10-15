@@ -1,0 +1,53 @@
+.other {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 15px;
+    border: 1px solid black;
+    transition:0.3s;
+}
+.other:hover {
+    display: inline-block;
+    transform: scale(1.05);
+    }
+#button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px black;
+    padding: 5px 10px;
+    margin: 0 15px ;
+    transition:0.3s;
+}
+#button:hover {
+    transform: translateY(-2px);
+}
+.cards {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    gap: 10px;
+}
+.card {
+    background-color:blue;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#backButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 9px black;
+    padding: 10px 20px;
+    transition:0.3s;
+    margin: 0 15px ;
+}
+#backButton:hover {
+    transform: translateY(-5px);
+}
